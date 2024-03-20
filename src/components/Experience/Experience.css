@@ -1,0 +1,44 @@
+.experience-content{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.job-section1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-title1{
+    line-height: 30px;
+}
+
+.vline1{
+    margin-left: 20px;
+    height: 180px;
+    border: 1px solid black;
+    width: 1px;
+}
+
+.job-description1{
+    margin-left: 50px;
+}
+
+.job-section2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.vline2{
+    height: 180px;
+    border: 1px solid black;
+    width: 1px;
+}
+
+.job-title2{
+    line-height: 30px;
+    margin-left: 30px;
+}
