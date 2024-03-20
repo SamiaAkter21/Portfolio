@@ -5,6 +5,8 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <BrowseRouter basename={"/Portfolio/"}>
+      <App />
+    </BrowseRouter>
   </React.StrictMode>,
 )
