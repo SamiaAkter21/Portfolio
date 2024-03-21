@@ -5,6 +5,7 @@ import Experience from "./components/Experience/Experience";
 import FetchQuote from "./components/FetchQuote/FetchQuote";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Error from "./components/Error/Error";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/experience" element={<Experience/>}/>
             <Route path="/fetch" element={<FetchQuote/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="*" element={<Error/>} />
           </Route>
         </Routes>
       </BrowserRouter>

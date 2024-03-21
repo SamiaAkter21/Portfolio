@@ -3,7 +3,6 @@ import './Navbar.css';
 import logo from '../../image/logo.jpg';
 import menu from '../../image/nav-menu.jpg';
 import { Link, NavLink, Outlet } from 'react-router-dom';
-import Footer from '../Footer/Footer';
 import DarkMode from '../DarkMode/DarkMode';
 
 const Navbar = (toggle) => {

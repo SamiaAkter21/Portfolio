@@ -1,0 +1,26 @@
+.error{
+    margin-top: 10%;
+    text-align: center;
+    color: red;
+    font-size: large;
+}
+
+.errBtn{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}
+
+.errBtn:hover{
+    border: 0.5px solid brown;
+    background-color: rgb(209, 93, 108);
+}
+
+.dark .errBtn{
+    background-color: rgb(95, 90, 83);
+}
+
+.dark .errBtn:hover{
+    border: 0.5px solid black;
+    background-color: rgb(124, 128, 128);
+}
