@@ -17,7 +17,7 @@ const FetchQuote = () => {
     //     quoteHandler();
     // }, [])
     
-    const {quote, author, fetchNewQuote} = UseFetch("http://api.quotable.io/random");
+    const {quote, author, fetchNewQuote} = UseFetch("https://api.quotable.io/random");
     
     return ( 
         <div id='fetchQuote'>
