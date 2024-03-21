@@ -5,7 +5,7 @@ import menu from '../../image/nav-menu.jpg';
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import DarkMode from '../DarkMode/DarkMode';
 
-const Navbar = (toggle) => {
+const Navbar = () => {
     return (
         <>
             <nav className="navbar flex">
